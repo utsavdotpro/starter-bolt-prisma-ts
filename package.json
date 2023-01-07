@@ -1,0 +1,12 @@
+{
+  "name": "starter-bolt-prisma-ts",
+  "version": "1.0.0",
+  "description": "Starter template for building Slack apps using Bolt",
+  "main": "app.js",
+  "repository": "https://github.com/utsavdotpro/starter-bolt-prisma-ts",
+  "author": "Utsav Barnwal",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
