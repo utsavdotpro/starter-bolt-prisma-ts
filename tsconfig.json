@@ -1,6 +1,38 @@
 {
   "compilerOptions": {
     "baseUrl": "./src",
+    "paths": {
+      "@actions/*": [
+        "listeners/actions/*"
+      ],
+      "@events/*": [
+        "listeners/events/*"
+      ],
+      "@shortcuts/*": [
+        "listeners/shortcuts/*"
+      ],
+      "@views/*": [
+        "listeners/views/*"
+      ],
+      "@listeners/*": [
+        "listeners/*"
+      ],
+      "@models/*": [
+        "models/*"
+      ],
+      "@modals/*": [
+        "ui/modals/*"
+      ],
+      "@ui/*": [
+        "ui/*"
+      ],
+      "@constants/*": [
+        "utils/constants/*"
+      ],
+      "@utils/*": [
+        "utils/*"
+      ],
+    },
     "target": "es5",                          
     "module": "commonjs",                    
     "lib": ["es6"],                     
