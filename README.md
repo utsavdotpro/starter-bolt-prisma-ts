@@ -38,6 +38,11 @@ Run locally
 yarn dev
 ````
 
+Build app
+````bash
+yarn build
+````
+
 Run build version
 ````bash
 yarn start
