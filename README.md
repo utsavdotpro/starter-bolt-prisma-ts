@@ -43,7 +43,7 @@ Run build version
 yarn start
 ````
 
-### Express App
+### Express app
 
 > Bolt doesn't require a separate Express app but it's good to have to quickly test your APIs locally
 
