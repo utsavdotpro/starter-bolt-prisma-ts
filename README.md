@@ -80,3 +80,8 @@ project
 |   |   |-- constants         ℹ️ keep your constants
 |   |   |                     ℹ️ keep your util functions
 ```
+
+## Deploy
+Bolt is basically a NodeJS app and so can be easily hosted on platforms like [Heroku](heroku.com)  
+
+**Deploy for free on [Render](https://render.com)**  
