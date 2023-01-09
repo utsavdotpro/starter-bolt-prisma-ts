@@ -45,7 +45,7 @@ yarn start
 
 ### Express App
 
-> 👉 Bolt doesn't require a separate Express app but it's good to have to quickly test your APIs locally
+> Bolt doesn't require a separate Express app but it's good to have to quickly test your APIs locally
 
 Run locally
 
