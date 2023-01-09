@@ -45,6 +45,8 @@ yarn start
 
 ### Express App
 
+> 👉 Bolt doesn't require a separate Express app but it's good to have to quickly test your APIs locally
+
 Run locally
 
 ````bash
@@ -82,6 +84,6 @@ project
 ```
 
 ## Deploy
-Bolt is basically a NodeJS app and so can be easily hosted on platforms like [Heroku](heroku.com)  
+Bolt is basically a NodeJS app and so can be easily hosted on platforms like [Heroku](heroku.com).  
 
 **Deploy for free on [Render](https://render.com)**  
