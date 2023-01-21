@@ -16,8 +16,7 @@
     "migrate:deploy": "npx prisma migrate deploy",
     "prisma:studio": "npx prisma studio",
     "prisma:generate": "npx prisma generate",
-    "prisma:generate:watch": "npx prisma generate --watch",
-    "postinstall": "npm run prisma:generate"
+    "prisma:generate:watch": "npx prisma generate --watch"
   },
   "devDependencies": {
     "@types/node": "^18.11.18",
