@@ -11,7 +11,7 @@ A starter template for building Slack apps using Bolt with Prisma in TypeScript
 
 ---
 
-## How to Reuse Locally?
+## Using the template locally
 
 Use `degit` to download the repository locally.
 
@@ -28,6 +28,8 @@ Download the latest version
 ````bash
 degit utsavdotpro/starter-bolt-prisma-ts
 ````
+
+---
 
 ## Getting Started
 
@@ -47,6 +49,18 @@ Run build version
 ````bash
 yarn start
 ````
+
+### Real-time Dev Testing
+
+After you've started the Bolt app using any of the commands above, run the following to expose your local server to the world.
+
+```bash
+yarn serve
+```
+
+You will receive a url, for example https://random-words.loca.lt, that you can use directly on Slack. Made possible using [localtunnel](https://github.com/localtunnel/localtunnel)
+
+> Update the port in [package.json](package.json) for the `serve` script if you want to use anything other than `3000` for the Bolt app
 
 ### Express app
 
@@ -92,3 +106,12 @@ project
 Bolt is basically a NodeJS app and so can be easily hosted on platforms like [Heroku](heroku.com).  
 
 **Deploy for free on [Render](https://render.com)**  
+
+## Quick Tips
+
+- Add the following script in your `package.json` file to automatically generate your Prisma models on every install
+  ```json
+  "scripts": {
+    "postinstall": "npm run prisma:generate"
+  }
+  ```

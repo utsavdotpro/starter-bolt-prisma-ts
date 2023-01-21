@@ -11,17 +11,18 @@
     "start": "node build/app.js",
     "dev:express": "nodemon src/express.ts",
     "build": "tsc",
+    "serve": "npx lt --port 3000",
     "migrate:dev": "prisma migrate dev",
     "migrate:reset": "prisma migrate reset",
     "migrate:deploy": "npx prisma migrate deploy",
     "prisma:studio": "npx prisma studio",
     "prisma:generate": "npx prisma generate",
-    "prisma:generate:watch": "npx prisma generate --watch",
-    "postinstall": "npm run prisma:generate"
+    "prisma:generate:watch": "npx prisma generate --watch"
   },
   "devDependencies": {
     "@types/node": "^18.11.18",
     "dotenv": "^16.0.3",
+    "localtunnel": "^2.0.2",
     "nodemon": "^2.0.20",
     "prisma": "^4.8.1",
     "ts-node": "^10.9.1",
