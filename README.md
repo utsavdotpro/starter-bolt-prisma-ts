@@ -50,6 +50,16 @@ Run build version
 yarn start
 ````
 
+### Real-time Dev Testing
+
+After you've started the Bolt app using any of the commands above, run the following to expose your local server to the world.
+
+```bash
+yarn serve
+```
+
+You will receive a url, for example https://random-words.loca.lt, that you can use directly on Slack. Made possible using [localtunnel](https://github.com/localtunnel/localtunnel)
+
 ### Express app
 
 > Bolt doesn't require a separate Express app but it's good to have to quickly test your APIs locally
