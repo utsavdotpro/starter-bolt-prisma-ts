@@ -60,6 +60,8 @@ yarn serve
 
 You will receive a url, for example https://random-words.loca.lt, that you can use directly on Slack. Made possible using [localtunnel](https://github.com/localtunnel/localtunnel)
 
+> Update the port in [package.json](package.json) for the `serve` script if you want to use anything other than `3000` for the Bolt app
+
 ### Express app
 
 > Bolt doesn't require a separate Express app but it's good to have to quickly test your APIs locally
