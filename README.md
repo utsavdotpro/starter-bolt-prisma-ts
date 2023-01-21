@@ -110,7 +110,6 @@ Bolt is basically a NodeJS app and so can be easily hosted on platforms like [He
 - Add the following script in your `package.json` file to automatically generate your Prisma models on every install
   ```json
   "scripts": {
-    // ...
     "postinstall": "npm run prisma:generate"
   }
   ```
