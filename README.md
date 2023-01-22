@@ -1,3 +1,5 @@
+[<img src="https://ik.imagekit.io/iutsav/fork_l0RKONb5l.svg" height="30" />](https://githubbox.com/utsavdotpro/starter-bolt-prisma-ts)
+
 # Bolt ⚡️ with Prisma in TypeScript
 
 A starter template for building Slack apps using Bolt with Prisma in TypeScript
@@ -6,8 +8,6 @@ A starter template for building Slack apps using Bolt with Prisma in TypeScript
 - [Bolt](https://api.slack.com/bolt) v3.12
 - [Prisma](https://www.prisma.io/) v4.8
 - [TypeScript](https://www.typescriptlang.org/) v4.9
-
-[<img src="https://ik.imagekit.io/iutsav/fork-on-codesandbox__e0mFWzr1.png?updatedAt=1641916982302" width="200"/>](https://githubbox.com/utsavdotpro/starter-bolt-prisma-ts)
 
 ---
 
@@ -102,7 +102,7 @@ project
 |   |   |                     ℹ️ keep your util functions
 ```
 
-## Deploy
+## Deployment
 Bolt is basically a NodeJS app and so can be easily hosted on platforms like [Heroku](heroku.com).  
 
 **Deploy for free on [Render](https://render.com)**  
